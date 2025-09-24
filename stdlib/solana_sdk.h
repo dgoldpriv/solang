@@ -209,7 +209,7 @@ typedef struct
  */
 typedef struct
 {
-    SolAccountInfo ka[10]; /** Pointer to an array of SolAccountInfo, must already
+    SolAccountInfo ka[32]; /** Pointer to an array of SolAccountInfo, must already
                           point to an array of SolAccountInfos */
     uint64_t ka_num;       /** Number of SolAccountInfo entries in `ka` */
     const uint8_t *input;  /** pointer to the instruction data */
